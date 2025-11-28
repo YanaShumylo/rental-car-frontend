@@ -1,0 +1,20 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 0;
+  margin: 32px 0 0 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 32px;
+}
+

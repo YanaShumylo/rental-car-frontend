@@ -1,0 +1,10 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центруємо всі компоненти по горизонталі */
+  padding: 40px 120px; /* Відступи зверху та з боків */
+  /* gap: 40px;  */
+  /* Відстань між компонентами */
+  max-width: 1440px; /* Максимальна ширина сторінки */
+  margin: 0 auto; /* Центруємо всю сторінку на екрані */
+}

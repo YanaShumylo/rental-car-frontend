@@ -1,0 +1,95 @@
+.rentForm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 32px;
+  width: 640px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.titleRent {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.20;
+  margin-bottom: 8px;
+}
+
+.textRent {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+  margin-bottom: 24px;
+}
+
+.wrapperForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.input {
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  padding: 12px 20px;
+  width: 100%;
+  background: #f7f7f7;
+  transition: all 0.2s ease;
+  outline: none;
+  font-family: "Manrope", sans-serif;
+}
+
+.input:focus {
+  background-color: #f7f7f7;
+}
+
+.input:hover {
+  background-color: #f2f2f2;
+}
+
+.textarea {
+  resize: none;
+  height: 88px;
+}
+
+.input[type="date"]::-webkit-datetime-edit {
+  color: #101828;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+}
+
+.input[type="date"]::-webkit-inner-spin-button,
+.input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+
+.input[type="date"]::-moz-placeholder {
+  color: #101828;
+}
+
+.button {
+  border-radius: 12px;
+  padding: 12px 51px;
+  width: 156px;
+  height: 44px;
+  background-color: #3470ff;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
+  align-self: center;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0b44cd;
+}

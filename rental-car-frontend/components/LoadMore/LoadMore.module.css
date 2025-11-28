@@ -1,0 +1,21 @@
+.loadMoreWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.loadMoreButton {
+  border: 1px solid #3470ff;
+  border-radius: 12px;
+  padding: 12px 51px;
+  height: 44px;
+  min-width: 156px; 
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  transition: all 0.2s ease;
+}
+
+.loadMoreButton:hover:not(:disabled) {
+ border: 1px solid #0b44cd;
+}
