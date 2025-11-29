@@ -32,7 +32,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .item a {

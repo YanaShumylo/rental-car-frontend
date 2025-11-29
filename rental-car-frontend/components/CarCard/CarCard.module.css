@@ -66,17 +66,21 @@ height: 268px;
   gap: 6px;
 }
 
-.titlePrice{
+.infoCar{
 display: flex;
 justify-content: space-between;
 align-items: center;
 margin-bottom: 8px;
 }
 
-.title {
+.text {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.25;
+}
+
+.model {
+  color: #3470ff;
 }
 
 .infoRow {

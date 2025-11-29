@@ -1,9 +1,8 @@
 .list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 28px;
   padding: 0;
-  margin: 32px 0 0 0;
   list-style: none;
 }
 

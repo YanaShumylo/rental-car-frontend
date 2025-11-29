@@ -1,7 +1,7 @@
 .loadMoreWrapper {
   display: flex;
   justify-content: center;
-  margin: 40px 0;
+  margin-top: 80px;
 }
 .loadMoreButton {
   border: 1px solid #3470ff;
@@ -16,6 +16,6 @@
   transition: all 0.2s ease;
 }
 
-.loadMoreButton:hover:not(:disabled) {
+.loadMoreButton:hover {
  border: 1px solid #0b44cd;
 }

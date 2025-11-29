@@ -36,6 +36,12 @@ button {
   cursor: pointer;
 }
 
+h2
+{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
 .font-second {
   font-family: var(--second-family);
 }

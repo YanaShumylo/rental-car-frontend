@@ -26,8 +26,6 @@ fetchCars: async () => {
       mileageTo: filters.mileageTo || undefined,
     };
 
-    console.log("Fetch cars with params:", params);
-
     const response = await api.get<CarsApiResponse>("/cars", { params });
     const data = response.data;
 

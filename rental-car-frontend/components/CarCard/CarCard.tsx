@@ -46,11 +46,12 @@ export default function CarCard({ car }: Props) {
 
       <div className={css.info}>
 
-        <div className={css.titlePrice}>
-  <h3 className={css.title}>
-    {car.brand} {car.model}, {car.year}
-  </h3>
-  <p className={css.title}>${car.rentalPrice}</p>
+<div className={css.infoCar}>
+  <p className={css.text}>
+    {car.brand}{" "}
+    <span className={css.model}>{car.model}</span>, {car.year}
+  </p>
+  <p className={css.text}>${car.rentalPrice}</p>
 </div>
         
 <div className={css.infoRow}>

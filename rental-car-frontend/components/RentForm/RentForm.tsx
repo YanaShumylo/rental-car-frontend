@@ -63,7 +63,7 @@ export const RentForm = ({ carId }: Props) => {
 
   return (
     <form className={css.rentForm} onSubmit={handleSubmit}>
-      <h3 className={css.titleRent}>Book your car now</h3>
+      <h2 className={css.titleRent}>Book your car now</h2>
       <p className={css.textRent}>
         Stay connected! We are always ready to help you.
       </p>

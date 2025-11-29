@@ -4,14 +4,14 @@
   justify-content: center;   
   align-items: flex-end;        
   gap: 16px;                 
-  margin: 40px 0;
+  margin-bottom: 56px;
   flex-wrap: nowrap;         
 }
 
 .field {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
@@ -166,7 +166,7 @@
 .buttons {
   width: 156px;
   height: 44px;
-  padding: 0 24px;
+  padding: 12px 51px;
   border-radius: 12px;
   background-color: #3470ff;
   color: #fff;
@@ -176,7 +176,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   border: none;
   transition: all 0.2s ease;
 }

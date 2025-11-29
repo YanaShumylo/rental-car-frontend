@@ -64,9 +64,9 @@ export default function CarDetailsPage() {
 
         <div className={css.rightColumn}>
           <div className={css.carHeader}>
-            <h4 className={css.carTitle}>
+            <p className={css.textAboutCar}>
               {car.brand} {car.model}, {car.year}
-            </h4>
+            </p>
             <p className={css.code}>
               <strong>Id:</strong> {car.id}
             </p>
@@ -90,7 +90,7 @@ export default function CarDetailsPage() {
           <p className={css.description}>{car.description}</p>
 
           <div className={css.block}>
-            <h4 className={css.titleBlock}>Rental Conditions:</h4>
+            <h2 className={css.titleBlock}>Rental Conditions:</h2>
             <ul className={css.customList}>
               {car.rentalConditions.map((cond, idx) => (
                 <li key={idx} className={css.customItem}>
@@ -104,7 +104,7 @@ export default function CarDetailsPage() {
           </div>
 
           <div className={css.block}>
-            <h4 className={css.titleBlock}>Car Specifications:</h4>
+            <h2 className={css.titleBlock}>Car Specifications:</h2>
             <ul className={css.customList}>
               <li className={css.customItem}>
                 <svg className={css.specIcon} width="16" height="16">
@@ -134,7 +134,7 @@ export default function CarDetailsPage() {
           </div>
 
           <div className={css.block}>
-            <h4 className={css.titleBlock}>Accessories and Functionalities:</h4>
+            <h2 className={css.titleBlock}>Accessories and Functionalities:</h2>
             <ul className={css.customList}>
               {[...car.accessories, ...car.functionalities].map((item, idx) => (
                 <li key={idx} className={css.customItem}>
